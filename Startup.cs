@@ -32,7 +32,10 @@ namespace PatraCorp_JoeyAxtell_20210922
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello Patra Corp");
+                    await context.Response.WriteAsync("My Name is Joey Axtell and I'm applying for the Devops Position.");
+                    await context.Response.WriteAsync("This is a simple webpage deployed with Github Actions with the infrastructure created in Azure using Terraform Azure provider.");
+                    await context.Response.WriteAsync("Thank you for considering me for the Devops roles within your company.");
                 });
             });
         }
